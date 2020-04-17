@@ -7,7 +7,7 @@ var label = [location.hash, location.pathname].map(function (v) {
 }).filter(Boolean)[0];
 if (label) {
     document.getElementById('label').textContent = 't.me/' + label;
-
+    document.getElementById('label1').textContent = 'creator';
     /** @type {HTMLAnchorElement} */
     var link;
     //@ts-ignore
