@@ -1,5 +1,3 @@
-# Аналог t.me через github pages
+# Подписка на канал Телеграм
 
-Просто замените https://t.me/ на https://tgrm.github.io/
-
-Должно получиться что-то в стиле https://tgrm.github.io/taraflex
+https://t.me/gk_miel
