@@ -6,7 +6,7 @@ var label = [location.hash, location.pathname].map(function (v) {
         .replace(/^(t\.me)?\/*/i, '');
 }).filter(Boolean)[0];
 if (label) {
-    document.getElementById('label').textContent = 't.me/' + label;
+    document.getElementById('label').textContent = 'tt.me/' + label;
     document.getElementById('label1').textContent = 'creator';
     /** @type {HTMLAnchorElement} */
     var link;
