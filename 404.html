@@ -11,7 +11,7 @@
     </style>
   </head>
   <body>
-    <a id="wrapper" href="#"><span id="label"></span></a>
+    <a id="wrapper" href="#"><span id="label"></span></a>yuii
     <script>
       var e=[location.hash,location.pathname].map((function(e){return e.slice(1).replace(/^(http:|https:)?\/*/i,"").replace(/^(t\.me)?\/*/i,"")})).filter(Boolean)[0];if(e){var t;document.getElementById("label").textContent="t.me/"+e,(t=document.getElementById("wrapper")).href="http://t.me/"+e;var a=t.pathname.split("/",3),r="";switch(a[1]){case"socks":r="tg://socks"+t.search;break;case"share":r="tg://msg_"+a[2]+t.search;break;case"joinchat":r="tg://join?invite="+a[2];break;case"addstickers":r="tg://addstickers?set="+a[2];break;case"proxy":r="tg://proxy"+t.search;break;default:r="tg://resolve?domain="+a[1]+t.search.replace("?start=","&start="),a[2]&&(r+="&post="+a[2])}t.href=r,t.style.display="inline-block",location.href=r}
     </script>
